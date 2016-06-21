@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe.config
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.pdb
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.Properties.Resources.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.pdb
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.Form1.resources

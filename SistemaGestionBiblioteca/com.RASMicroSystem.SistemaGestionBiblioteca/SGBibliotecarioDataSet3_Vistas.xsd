@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SGBibliotecarioDataSet3_Vistas" targetNamespace="http://tempuri.org/SGBibliotecarioDataSet3_Vistas.xsd" xmlns:mstns="http://tempuri.org/SGBibliotecarioDataSet3_Vistas.xsd" xmlns="http://tempuri.org/SGBibliotecarioDataSet3_Vistas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SGBibliotecarioConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SGBibliotecarioConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.com.RASMicroSystem.SistemaGestionBiblioteca.Properties.Settings.GlobalReference.Default.SGBibliotecarioConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_autoresLibrosTableAdapter" GeneratorDataComponentClassName="View_autoresLibrosTableAdapter" Name="View_autoresLibros" UserDataComponentName="View_autoresLibrosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SGBibliotecarioConnectionString (Settings)" DbObjectName="SGBibliotecario.dbo.View_autoresLibros" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT titulo_original, nombre, apellido, nacionalidad FROM dbo.View_autoresLibros</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_BibliotecarioTableAdapter" GeneratorDataComponentClassName="View_BibliotecarioTableAdapter" Name="View_Bibliotecario" UserDataComponentName="View_BibliotecarioTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SGBibliotecarioConnectionString (Settings)" DbObjectName="SGBibliotecario.dbo.View_Bibliotecario" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, nombre, apellido, telefono, categoria FROM dbo.View_Bibliotecario</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="apellido" DataSetColumn="apellido" />
+              <Mapping SourceColumn="telefono" DataSetColumn="telefono" />
+              <Mapping SourceColumn="categoria" DataSetColumn="categoria" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_EjemplaresTableAdapter" GeneratorDataComponentClassName="View_EjemplaresTableAdapter" Name="View_Ejemplares" UserDataComponentName="View_EjemplaresTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SGBibliotecarioConnectionString (Settings)" DbObjectName="SGBibliotecario.dbo.View_Ejemplares" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idLibro, titulo_original, numeroDeEjemplar FROM dbo.View_Ejemplares</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idLibro" DataSetColumn="idLibro" />
+              <Mapping SourceColumn="titulo_original" DataSetColumn="titulo_original" />
+              <Mapping SourceColumn="numeroDeEjemplar" DataSetColumn="numeroDeEjemplar" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_EstadoLibroTableAdapter" GeneratorDataComponentClassName="View_EstadoLibroTableAdapter" Name="View_EstadoLibro" UserDataComponentName="View_EstadoLibroTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SGBibliotecarioConnectionString (Settings)" DbObjectName="SGBibliotecario.dbo.View_EstadoLibro" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idLibro, titulo_original, nombreEstado, fechaHora FROM dbo.View_EstadoLibro</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idLibro" DataSetColumn="idLibro" />
+              <Mapping SourceColumn="titulo_original" DataSetColumn="titulo_original" />
+              <Mapping SourceColumn="nombreEstado" DataSetColumn="nombreEstado" />
+              <Mapping SourceColumn="fechaHora" DataSetColumn="fechaHora" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_LibrosPrestadosTableAdapter" GeneratorDataComponentClassName="View_LibrosPrestadosTableAdapter" Name="View_LibrosPrestados" UserDataComponentName="View_LibrosPrestadosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SGBibliotecarioConnectionString (Settings)" DbObjectName="SGBibliotecario.dbo.View_LibrosPrestados" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Codigo Prestamo], [Codigo Libro], [Titulo Libro], [Nombre Lector], [Apellido Lector], [Nombre Bibliotecario] FROM dbo.View_LibrosPrestados</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Codigo Prestamo" DataSetColumn="Codigo Prestamo" />
+              <Mapping SourceColumn="Codigo Libro" DataSetColumn="Codigo Libro" />
+              <Mapping SourceColumn="Titulo Libro" DataSetColumn="Titulo Libro" />
+              <Mapping SourceColumn="Nombre Lector" DataSetColumn="Nombre Lector" />
+              <Mapping SourceColumn="Apellido Lector" DataSetColumn="Apellido Lector" />
+              <Mapping SourceColumn="Nombre Bibliotecario" DataSetColumn="Nombre Bibliotecario" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_prestamoLibroTableAdapter" GeneratorDataComponentClassName="View_prestamoLibroTableAdapter" Name="View_prestamoLibro" UserDataComponentName="View_prestamoLibroTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SGBibliotecarioConnectionString (Settings)" DbObjectName="SGBibliotecario.dbo.View_prestamoLibro" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT nombre, apellido, categoria, titulo_original, numeroDeEjemplar, nombreEstado, horafecha, [Nombre Bibliotecario], id FROM dbo.View_prestamoLibro</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_solicitudLibrosTableAdapter" GeneratorDataComponentClassName="View_solicitudLibrosTableAdapter" Name="View_solicitudLibros" UserDataComponentName="View_solicitudLibrosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SGBibliotecarioConnectionString (Settings)" DbObjectName="SGBibliotecario.dbo.View_solicitudLibros" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT nombre, apellido, titulo_libroSolicitud, autor_libroSolicitud, fecha_solicitud FROM dbo.View_solicitudLibros</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="apellido" DataSetColumn="apellido" />
+              <Mapping SourceColumn="titulo_libroSolicitud" DataSetColumn="titulo_libroSolicitud" />
+              <Mapping SourceColumn="autor_libroSolicitud" DataSetColumn="autor_libroSolicitud" />
+              <Mapping SourceColumn="fecha_solicitud" DataSetColumn="fecha_solicitud" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_TraducionLibroTableAdapter" GeneratorDataComponentClassName="View_TraducionLibroTableAdapter" Name="View_TraducionLibro" UserDataComponentName="View_TraducionLibroTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SGBibliotecarioConnectionString (Settings)" DbObjectName="SGBibliotecario.dbo.View_TraducionLibro" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT titulo_original, idioma_traduccion, idLibroTraduccion FROM dbo.View_TraducionLibro</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="titulo_original" DataSetColumn="titulo_original" />
+              <Mapping SourceColumn="idioma_traduccion" DataSetColumn="idioma_traduccion" />
+              <Mapping SourceColumn="idLibroTraduccion" DataSetColumn="idLibroTraduccion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SGBibliotecarioDataSet3_Vistas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SGBibliotecarioDataSet3_Vistas" msprop:Generator_UserDSName="SGBibliotecarioDataSet3_Vistas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_autoresLibros" msprop:Generator_TableClassName="View_autoresLibrosDataTable" msprop:Generator_TableVarName="tableView_autoresLibros" msprop:Generator_TablePropName="View_autoresLibros" msprop:Generator_RowDeletingName="View_autoresLibrosRowDeleting" msprop:Generator_RowChangingName="View_autoresLibrosRowChanging" msprop:Generator_RowEvHandlerName="View_autoresLibrosRowChangeEventHandler" msprop:Generator_RowDeletedName="View_autoresLibrosRowDeleted" msprop:Generator_UserTableName="View_autoresLibros" msprop:Generator_RowChangedName="View_autoresLibrosRowChanged" msprop:Generator_RowEvArgName="View_autoresLibrosRowChangeEvent" msprop:Generator_RowClassName="View_autoresLibrosRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_Bibliotecario" msprop:Generator_TableClassName="View_BibliotecarioDataTable" msprop:Generator_TableVarName="tableView_Bibliotecario" msprop:Generator_TablePropName="View_Bibliotecario" msprop:Generator_RowDeletingName="View_BibliotecarioRowDeleting" msprop:Generator_RowChangingName="View_BibliotecarioRowChanging" msprop:Generator_RowEvHandlerName="View_BibliotecarioRowChangeEventHandler" msprop:Generator_RowDeletedName="View_BibliotecarioRowDeleted" msprop:Generator_UserTableName="View_Bibliotecario" msprop:Generator_RowChangedName="View_BibliotecarioRowChanged" msprop:Generator_RowEvArgName="View_BibliotecarioRowChangeEvent" msprop:Generator_RowClassName="View_BibliotecarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellido" msprop:Generator_ColumnVarNameInTable="columnapellido" msprop:Generator_ColumnPropNameInRow="apellido" msprop:Generator_ColumnPropNameInTable="apellidoColumn" msprop:Generator_UserColumnName="apellido">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="telefono" msprop:Generator_ColumnVarNameInTable="columntelefono" msprop:Generator_ColumnPropNameInRow="telefono" msprop:Generator_ColumnPropNameInTable="telefonoColumn" msprop:Generator_UserColumnName="telefono">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="categoria" msprop:Generator_ColumnVarNameInTable="columncategoria" msprop:Generator_ColumnPropNameInRow="categoria" msprop:Generator_ColumnPropNameInTable="categoriaColumn" msprop:Generator_UserColumnName="categoria">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_Ejemplares" msprop:Generator_TableClassName="View_EjemplaresDataTable" msprop:Generator_TableVarName="tableView_Ejemplares" msprop:Generator_TablePropName="View_Ejemplares" msprop:Generator_RowDeletingName="View_EjemplaresRowDeleting" msprop:Generator_RowChangingName="View_EjemplaresRowChanging" msprop:Generator_RowEvHandlerName="View_EjemplaresRowChangeEventHandler" msprop:Generator_RowDeletedName="View_EjemplaresRowDeleted" msprop:Generator_UserTableName="View_Ejemplares" msprop:Generator_RowChangedName="View_EjemplaresRowChanged" msprop:Generator_RowEvArgName="View_EjemplaresRowChangeEvent" msprop:Generator_RowClassName="View_EjemplaresRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idLibro" msprop:Generator_ColumnVarNameInTable="columnidLibro" msprop:Generator_ColumnPropNameInRow="idLibro" msprop:Generator_ColumnPropNameInTable="idLibroColumn" msprop:Generator_UserColumnName="idLibro" type="xs:int" />
+              <xs:element name="titulo_original" msprop:Generator_ColumnVarNameInTable="columntitulo_original" msprop:Generator_ColumnPropNameInRow="titulo_original" msprop:Generator_ColumnPropNameInTable="titulo_originalColumn" msprop:Generator_UserColumnName="titulo_original">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="numeroDeEjemplar" msprop:Generator_ColumnVarNameInTable="columnnumeroDeEjemplar" msprop:Generator_ColumnPropNameInRow="numeroDeEjemplar" msprop:Generator_ColumnPropNameInTable="numeroDeEjemplarColumn" msprop:Generator_UserColumnName="numeroDeEjemplar">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_EstadoLibro" msprop:Generator_TableClassName="View_EstadoLibroDataTable" msprop:Generator_TableVarName="tableView_EstadoLibro" msprop:Generator_TablePropName="View_EstadoLibro" msprop:Generator_RowDeletingName="View_EstadoLibroRowDeleting" msprop:Generator_RowChangingName="View_EstadoLibroRowChanging" msprop:Generator_RowEvHandlerName="View_EstadoLibroRowChangeEventHandler" msprop:Generator_RowDeletedName="View_EstadoLibroRowDeleted" msprop:Generator_UserTableName="View_EstadoLibro" msprop:Generator_RowChangedName="View_EstadoLibroRowChanged" msprop:Generator_RowEvArgName="View_EstadoLibroRowChangeEvent" msprop:Generator_RowClassName="View_EstadoLibroRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idLibro" msprop:Generator_ColumnVarNameInTable="columnidLibro" msprop:Generator_ColumnPropNameInRow="idLibro" msprop:Generator_ColumnPropNameInTable="idLibroColumn" msprop:Generator_UserColumnName="idLibro" type="xs:int" />
+              <xs:element name="titulo_original" msprop:Generator_ColumnVarNameInTable="columntitulo_original" msprop:Generator_ColumnPropNameInRow="titulo_original" msprop:Generator_ColumnPropNameInTable="titulo_originalColumn" msprop:Generator_UserColumnName="titulo_original">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombreEstado" msprop:Generator_ColumnVarNameInTable="columnnombreEstado" msprop:Generator_ColumnPropNameInRow="nombreEstado" msprop:Generator_ColumnPropNameInTable="nombreEstadoColumn" msprop:Generator_UserColumnName="nombreEstado">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fechaHora" msprop:Generator_ColumnVarNameInTable="columnfechaHora" msprop:Generator_ColumnPropNameInRow="fechaHora" msprop:Generator_ColumnPropNameInTable="fechaHoraColumn" msprop:Generator_UserColumnName="fechaHora" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_LibrosPrestados" msprop:Generator_TableClassName="View_LibrosPrestadosDataTable" msprop:Generator_TableVarName="tableView_LibrosPrestados" msprop:Generator_TablePropName="View_LibrosPrestados" msprop:Generator_RowDeletingName="View_LibrosPrestadosRowDeleting" msprop:Generator_RowChangingName="View_LibrosPrestadosRowChanging" msprop:Generator_RowEvHandlerName="View_LibrosPrestadosRowChangeEventHandler" msprop:Generator_RowDeletedName="View_LibrosPrestadosRowDeleted" msprop:Generator_UserTableName="View_LibrosPrestados" msprop:Generator_RowChangedName="View_LibrosPrestadosRowChanged" msprop:Generator_RowEvArgName="View_LibrosPrestadosRowChangeEvent" msprop:Generator_RowClassName="View_LibrosPrestadosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Codigo_x0020_Prestamo" msprop:Generator_ColumnVarNameInTable="columnCodigo_Prestamo" msprop:Generator_ColumnPropNameInRow="Codigo_Prestamo" msprop:Generator_ColumnPropNameInTable="Codigo_PrestamoColumn" msprop:Generator_UserColumnName="Codigo Prestamo" type="xs:int" />
+              <xs:element name="Codigo_x0020_Libro" msprop:Generator_ColumnVarNameInTable="columnCodigo_Libro" msprop:Generator_ColumnPropNameInRow="Codigo_Libro" msprop:Generator_ColumnPropNameInTable="Codigo_LibroColumn" msprop:Generator_UserColumnName="Codigo Libro" type="xs:int" minOccurs="0" />
+              <xs:element name="Titulo_x0020_Libro" msprop:Generator_ColumnVarNameInTable="columnTitulo_Libro" msprop:Generator_ColumnPropNameInRow="Titulo_Libro" msprop:Generator_ColumnPropNameInTable="Titulo_LibroColumn" msprop:Generator_UserColumnName="Titulo Libro">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nombre_x0020_Lector" msprop:Generator_ColumnVarNameInTable="columnNombre_Lector" msprop:Generator_ColumnPropNameInRow="Nombre_Lector" msprop:Generator_ColumnPropNameInTable="Nombre_LectorColumn" msprop:Generator_UserColumnName="Nombre Lector">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Apellido_x0020_Lector" msprop:Generator_ColumnVarNameInTable="columnApellido_Lector" msprop:Generator_ColumnPropNameInRow="Apellido_Lector" msprop:Generator_ColumnPropNameInTable="Apellido_LectorColumn" msprop:Generator_UserColumnName="Apellido Lector">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nombre_x0020_Bibliotecario" msprop:Generator_ColumnVarNameInTable="columnNombre_Bibliotecario" msprop:Generator_ColumnPropNameInRow="Nombre_Bibliotecario" msprop:Generator_ColumnPropNameInTable="Nombre_BibliotecarioColumn" msprop:Generator_UserColumnName="Nombre Bibliotecario">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_prestamoLibro" msprop:Generator_TableClassName="View_prestamoLibroDataTable" msprop:Generator_TableVarName="tableView_prestamoLibro" msprop:Generator_TablePropName="View_prestamoLibro" msprop:Generator_RowDeletingName="View_prestamoLibroRowDeleting" msprop:Generator_RowChangingName="View_prestamoLibroRowChanging" msprop:Generator_RowEvHandlerName="View_prestamoLibroRowChangeEventHandler" msprop:Generator_RowDeletedName="View_prestamoLibroRowDeleted" msprop:Generator_UserTableName="View_prestamoLibro" msprop:Generator_RowChangedName="View_prestamoLibroRowChanged" msprop:Generator_RowEvArgName="View_prestamoLibroRowChangeEvent" msprop:Generator_RowClassName="View_prestamoLibroRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_solicitudLibros" msprop:Generator_TableClassName="View_solicitudLibrosDataTable" msprop:Generator_TableVarName="tableView_solicitudLibros" msprop:Generator_TablePropName="View_solicitudLibros" msprop:Generator_RowDeletingName="View_solicitudLibrosRowDeleting" msprop:Generator_RowChangingName="View_solicitudLibrosRowChanging" msprop:Generator_RowEvHandlerName="View_solicitudLibrosRowChangeEventHandler" msprop:Generator_RowDeletedName="View_solicitudLibrosRowDeleted" msprop:Generator_UserTableName="View_solicitudLibros" msprop:Generator_RowChangedName="View_solicitudLibrosRowChanged" msprop:Generator_RowEvArgName="View_solicitudLibrosRowChangeEvent" msprop:Generator_RowClassName="View_solicitudLibrosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellido" msprop:Generator_ColumnVarNameInTable="columnapellido" msprop:Generator_ColumnPropNameInRow="apellido" msprop:Generator_ColumnPropNameInTable="apellidoColumn" msprop:Generator_UserColumnName="apellido">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="titulo_libroSolicitud" msprop:Generator_ColumnVarNameInTable="columntitulo_libroSolicitud" msprop:Generator_ColumnPropNameInRow="titulo_libroSolicitud" msprop:Generator_ColumnPropNameInTable="titulo_libroSolicitudColumn" msprop:Generator_UserColumnName="titulo_libroSolicitud">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="autor_libroSolicitud" msprop:Generator_ColumnVarNameInTable="columnautor_libroSolicitud" msprop:Generator_ColumnPropNameInRow="autor_libroSolicitud" msprop:Generator_ColumnPropNameInTable="autor_libroSolicitudColumn" msprop:Generator_UserColumnName="autor_libroSolicitud">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fecha_solicitud" msprop:Generator_ColumnVarNameInTable="columnfecha_solicitud" msprop:Generator_ColumnPropNameInRow="fecha_solicitud" msprop:Generator_ColumnPropNameInTable="fecha_solicitudColumn" msprop:Generator_UserColumnName="fecha_solicitud" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_TraducionLibro" msprop:Generator_TableClassName="View_TraducionLibroDataTable" msprop:Generator_TableVarName="tableView_TraducionLibro" msprop:Generator_TablePropName="View_TraducionLibro" msprop:Generator_RowDeletingName="View_TraducionLibroRowDeleting" msprop:Generator_RowChangingName="View_TraducionLibroRowChanging" msprop:Generator_RowEvHandlerName="View_TraducionLibroRowChangeEventHandler" msprop:Generator_RowDeletedName="View_TraducionLibroRowDeleted" msprop:Generator_UserTableName="View_TraducionLibro" msprop:Generator_RowChangedName="View_TraducionLibroRowChanged" msprop:Generator_RowEvArgName="View_TraducionLibroRowChangeEvent" msprop:Generator_RowClassName="View_TraducionLibroRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo_original" msprop:Generator_ColumnVarNameInTable="columntitulo_original" msprop:Generator_ColumnPropNameInRow="titulo_original" msprop:Generator_ColumnPropNameInTable="titulo_originalColumn" msprop:Generator_UserColumnName="titulo_original">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idioma_traduccion" msprop:Generator_ColumnVarNameInTable="columnidioma_traduccion" msprop:Generator_ColumnPropNameInRow="idioma_traduccion" msprop:Generator_ColumnPropNameInTable="idioma_traduccionColumn" msprop:Generator_UserColumnName="idioma_traduccion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idLibroTraduccion" msprop:Generator_ColumnVarNameInTable="columnidLibroTraduccion" msprop:Generator_ColumnPropNameInRow="idLibroTraduccion" msprop:Generator_ColumnPropNameInTable="idLibroTraduccionColumn" msprop:Generator_UserColumnName="idLibroTraduccion" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

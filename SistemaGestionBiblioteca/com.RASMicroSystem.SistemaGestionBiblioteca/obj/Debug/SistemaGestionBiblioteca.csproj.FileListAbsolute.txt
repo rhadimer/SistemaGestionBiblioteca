@@ -1,0 +1,78 @@
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\SistemaGestionBiblioteca.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.Properties.Resources.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\SistemaGestionBiblioteca.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.pdb
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe.config
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.pdb
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormPrincipal.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormLibro.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormUsuario.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormBibliotecario.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaUsuario.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaBibliotecario.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormAutor.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaLibro.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormEjemplares.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormPrestamo.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.Designer.cs
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.xsc
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.xsd
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.xss
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaPrestamo.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormLibrosDevueltos.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormEstado.resources
+C:\Users\User\Desktop\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormHistorialPrestamo.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe.config
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.pdb
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.Designer.cs
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.xsc
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.xsd
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.xss
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.pdb
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\SistemaGestionBiblioteca.csprojResolveAssemblyReference.cache
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormPrincipal.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormAutor.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormBibliotecario.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaBibliotecario.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaLibro.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaPrestamo.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaUsuario.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormEjemplares.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormEstado.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormHistorialPrestamo.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormLibro.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormLibrosDevueltos.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormPrestamo.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormUsuario.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.Properties.Resources.resources
+M:\Proyectos C#\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\SistemaGestionBiblioteca.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe.config
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.pdb
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.Designer.cs
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.xsc
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.xsd
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\SGBibliotecarioDataSet.xss
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.exe
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\bin\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.pdb
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\SistemaGestionBiblioteca.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormPrincipal.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormAutor.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormBibliotecario.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaBibliotecario.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaLibro.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaPrestamo.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormConsultaUsuario.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormEjemplares.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormEstado.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormHistorialPrestamo.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormLibro.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormLibrosDevueltos.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormPrestamo.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.FormUsuario.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\com.RASMicroSystem.SistemaGestionBiblioteca.Properties.Resources.resources
+C:\Users\User\Desktop\com.RASMicroSystem.SistemaGestionBiblioteca\com.RASMicroSystem.SistemaGestionBiblioteca\obj\Debug\SistemaGestionBiblioteca.csproj.GenerateResource.Cache

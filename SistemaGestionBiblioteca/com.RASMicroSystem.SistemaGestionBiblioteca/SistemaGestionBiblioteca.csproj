@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF250D4B-B21C-4D73-B8E4-70C2FB005A58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.RASMicroSystem.SistemaGestionBiblioteca</RootNamespace>
+    <AssemblyName>com.RASMicroSystem.SistemaGestionBiblioteca</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Autor.cs" />
+    <Compile Include="Bibliotecario.cs" />
+    <Compile Include="Conexion.cs" />
+    <Compile Include="Ejemplares.cs" />
+    <Compile Include="EstadoLibro.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAutor.Designer.cs">
+      <DependentUpon>FormAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBibliotecario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBibliotecario.Designer.cs">
+      <DependentUpon>FormBibliotecario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultaBibliotecario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultaBibliotecario.Designer.cs">
+      <DependentUpon>FormConsultaBibliotecario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultaLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultaLibro.Designer.cs">
+      <DependentUpon>FormConsultaLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultaPrestamo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultaPrestamo.Designer.cs">
+      <DependentUpon>FormConsultaPrestamo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultaUsuario.Designer.cs">
+      <DependentUpon>FormConsultaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEjemplares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEjemplares.Designer.cs">
+      <DependentUpon>FormEjemplares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEstado.Designer.cs">
+      <DependentUpon>FormEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHistorialPrestamo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHistorialPrestamo.Designer.cs">
+      <DependentUpon>FormHistorialPrestamo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLibro.Designer.cs">
+      <DependentUpon>FormLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLibrosDevueltos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLibrosDevueltos.Designer.cs">
+      <DependentUpon>FormLibrosDevueltos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrestamo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrestamo.Designer.cs">
+      <DependentUpon>FormPrestamo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsuario.Designer.cs">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Libro.cs" />
+    <Compile Include="LibroDevuelto.cs" />
+    <Compile Include="LibroPrestado.cs" />
+    <Compile Include="LibroTraduccion.cs" />
+    <Compile Include="Prestamo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelacionAutorLibro.cs" />
+    <Compile Include="ReportesEstado.cs" />
+    <Compile Include="SGBibliotecarioDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGBibliotecarioDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SGBibliotecarioDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGBibliotecarioDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SGBibliotecarioDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGBibliotecarioDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SGBibliotecarioDataSet3_Vistas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGBibliotecarioDataSet3_Vistas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SGBibliotecarioDataSet4_Vistas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGBibliotecarioDataSet4_Vistas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SGBibliotecarioDataSet5_Vistas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGBibliotecarioDataSet5_Vistas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SGBibliotecarioDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGBibliotecarioDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SGBibliotecarioDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGBibliotecarioDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SGBibliotecarioDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGBibliotecarioDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SolicitudLibros.cs" />
+    <Compile Include="Usuario.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAutor.resx">
+      <DependentUpon>FormAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBibliotecario.resx">
+      <DependentUpon>FormBibliotecario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultaBibliotecario.resx">
+      <DependentUpon>FormConsultaBibliotecario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultaLibro.resx">
+      <DependentUpon>FormConsultaLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultaPrestamo.resx">
+      <DependentUpon>FormConsultaPrestamo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultaUsuario.resx">
+      <DependentUpon>FormConsultaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEjemplares.resx">
+      <DependentUpon>FormEjemplares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEstado.resx">
+      <DependentUpon>FormEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHistorialPrestamo.resx">
+      <DependentUpon>FormHistorialPrestamo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLibro.resx">
+      <DependentUpon>FormLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLibrosDevueltos.resx">
+      <DependentUpon>FormLibrosDevueltos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrestamo.resx">
+      <DependentUpon>FormPrestamo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsuario.resx">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SGBibliotecarioDataSet.xsc">
+      <DependentUpon>SGBibliotecarioDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="SGBibliotecarioDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGBibliotecarioDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="SGBibliotecarioDataSet.xss">
+      <DependentUpon>SGBibliotecarioDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="SGBibliotecarioDataSet1.xsc">
+      <DependentUpon>SGBibliotecarioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGBibliotecarioDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SGBibliotecarioDataSet1.xss">
+      <DependentUpon>SGBibliotecarioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet2.xsc">
+      <DependentUpon>SGBibliotecarioDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGBibliotecarioDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SGBibliotecarioDataSet2.xss">
+      <DependentUpon>SGBibliotecarioDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet3_Vistas.xsc">
+      <DependentUpon>SGBibliotecarioDataSet3_Vistas.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet3_Vistas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGBibliotecarioDataSet3_Vistas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SGBibliotecarioDataSet3_Vistas.xss">
+      <DependentUpon>SGBibliotecarioDataSet3_Vistas.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet4_Vistas.xsc">
+      <DependentUpon>SGBibliotecarioDataSet4_Vistas.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet4_Vistas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGBibliotecarioDataSet4_Vistas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SGBibliotecarioDataSet4_Vistas.xss">
+      <DependentUpon>SGBibliotecarioDataSet4_Vistas.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet5_Vistas.xsc">
+      <DependentUpon>SGBibliotecarioDataSet5_Vistas.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet5_Vistas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGBibliotecarioDataSet5_Vistas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SGBibliotecarioDataSet5_Vistas.xss">
+      <DependentUpon>SGBibliotecarioDataSet5_Vistas.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet6.xsc">
+      <DependentUpon>SGBibliotecarioDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGBibliotecarioDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SGBibliotecarioDataSet6.xss">
+      <DependentUpon>SGBibliotecarioDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet7.xsc">
+      <DependentUpon>SGBibliotecarioDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGBibliotecarioDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SGBibliotecarioDataSet7.xss">
+      <DependentUpon>SGBibliotecarioDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet8.xsc">
+      <DependentUpon>SGBibliotecarioDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SGBibliotecarioDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGBibliotecarioDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SGBibliotecarioDataSet8.xss">
+      <DependentUpon>SGBibliotecarioDataSet8.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
